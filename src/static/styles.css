@@ -72,6 +72,11 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.activity-card p strong {
+  color: #1a237e;
 }
 
 .form-group {
@@ -141,4 +146,42 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participant-list {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.participant-list h5 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #1a237e;
+}
+
+.participant-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.participant-list ul li {
+  margin-bottom: 5px;
+}
+
+.participant-list .participant-badge {
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  padding: 5px 10px;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: bold;
 }
